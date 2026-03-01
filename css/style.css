@@ -1,0 +1,37 @@
+body {
+    font-family:Roboto;
+    background-color:#5C96E0;
+    color:#E1AC48;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Limelight";
+    font-size:40pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#363127;
+    background-color:#6A82A1;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
+
+#bottom {
+    text-align:center;
+}
+
+#foot {
+    text-align:center;
+}
