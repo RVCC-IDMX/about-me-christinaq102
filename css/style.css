@@ -1,11 +1,14 @@
 body {
     font-family:Roboto;
-    background-color:#5C96E0;
+    background-color:#ABCAF3;
     color:#363127;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Limelight";
+    font-size:20pt;
+}
+h1 {
     font-size:40pt;
 }
 
@@ -15,11 +18,17 @@ header {
 
 #hero, footer {
     color:#363127;
-    background-color:#6A82A1;
+    background-color:#E2D3E0;
     text-align:center;
+    font-weight:bold;
     padding:10px;
     border:0 solid #363127;
     border-width:10px;
+}
+
+#foot {
+    background-color:#D3E2f6;
+    text-align:center;
 }
 
 #hero img {
@@ -34,6 +43,12 @@ header {
     text-align:center;
 }
 
-#foot {
-    text-align:center;
+#hobbies ul li {
+    color:#2F3B49;
+    background-color:#E2D3E0;
+    border:0 solid #363127;
+    border-width:.7px;
+    border-radius:20px;
+    padding:7px;
+    width:fit-content;
 }
