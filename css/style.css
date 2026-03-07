@@ -1,7 +1,7 @@
 body {
     font-family:Roboto;
     background-color:#5C96E0;
-    color:#E1AC48;
+    color:#363127;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +18,8 @@ header {
     background-color:#6A82A1;
     text-align:center;
     padding:10px;
+    border:0 solid #363127;
+    border-width:10px;
 }
 
 #hero img {
