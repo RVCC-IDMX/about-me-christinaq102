@@ -1,12 +1,13 @@
 body {
     font-family:Roboto;
-    background-color:#ABCAF3;
+    background-color:#B0CBEE;
     color:#363127;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Limelight";
     font-size:20pt;
+    text-align:center;
 }
 h1 {
     font-size:40pt;
@@ -23,32 +24,61 @@ header {
     font-weight:bold;
     padding:10px;
     border:0 solid #363127;
-    border-width:10px;
+    border-width:5px;
 }
 
 #foot {
     background-color:#D3E2f6;
     text-align:center;
-}
-
-#hero img {
-    width:300px;
-}
-
-#bio {
-    text-align:center;
+    border-width:5px;
+    margin-top:10px;
 }
 
 #bottom {
     text-align:center;
 }
 
+/*Hero Section*/
+
+#hero img {
+    width:300px;
+}
+
+/*Bio Section*/
+
+#bio {
+    text-align:center;
+}
+
+/*Hobbies Section*/
+
 #hobbies ul li {
     color:#2F3B49;
     background-color:#E2D3E0;
     border:0 solid #363127;
-    border-width:.7px;
+    border-width:.5px;
     border-radius:20px;
     padding:7px;
+    text-align:center;
     width:fit-content;
+    margin:0 auto;
+}
+
+/*Gallery*/
+
+#gallery {
+    border:5px solid #363127;
+    padding:8px;
+    background-color:#D3E2f6;
+    width:fit-content;
+    margin:0 auto;
+}
+
+#gallery img {
+    max-width:50%;
+
+}
+
+#gallery figure {
+    text-align:center;
 }
