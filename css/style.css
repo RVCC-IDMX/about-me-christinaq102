@@ -58,7 +58,7 @@ header {
     border:0 solid #363127;
     border-width:.5px;
     border-radius:20px;
-    padding:7px;
+    padding:8px;
     text-align:center;
     width:fit-content;
     margin:0 auto;
@@ -81,4 +81,33 @@ header {
 
 #gallery figure {
     text-align:center;
+}
+
+/*Literature*/
+
+#lit {
+    border:5px solid #363127;
+    background-color:#D3E2f6;
+    font-size:20px;
+    margin-top:10px;
+    padding:10px;
+    width:fit-content;
+    margin:0 auto;
+    margin-top:5px;
+}
+
+#lit div :first-letter {
+color:#B0CBEE;
+background-image:radial-gradient(#363636);
+float:left;
+font-size:20px;
+padding:5px;
+margin-right:10px;
+margin-bottom:.5px;
+line-height:15px;
+border:2px outset #B0CBEE;
+text-shadow:2px 2px 3px rgba(0,0,.5);
+box-shadow:5px 5px 5px rgba(0,0,.5);
+border-top-left-radius:6px;
+border-bottom-right-radius:6px;
 }
