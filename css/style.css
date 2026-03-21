@@ -122,6 +122,7 @@ box-shadow:5px 5px 5px rgba(0,0,.5);
 border-top-left-radius:6px;
 border-bottom-right-radius:6px;
 }
+/* Tablet Size */
 
 @media screen and (min-width: 60em){
     figure{
@@ -137,4 +138,36 @@ border-bottom-right-radius:6px;
         margin-right:30px;
 
     }
+    figure img{
+        width:100%;
+    }
+
+    #lit div{
+        max-width:100%;
+        columns:20rem;
+
+    }
+}
+
+/* Large Screen Size*/
+
+@media screen and (min-width: 100em){
+
+    #gallery{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+    hr{
+        display:none;
+    }
+
+    #gallery h2{
+        grid-column:1/-1;
+    }
+
+    figure{
+        display:block;
+    }
+
 }
