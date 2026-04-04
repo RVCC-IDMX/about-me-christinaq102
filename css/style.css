@@ -122,6 +122,34 @@ box-shadow:5px 5px 5px rgba(0,0,.5);
 border-top-left-radius:6px;
 border-bottom-right-radius:6px;
 }
+
+/*Video Section*/
+
+#video {
+    text-align:center;
+    padding:10px;
+    margin:20px;
+}
+
+#video figure {
+    margin:0 auto;
+    max-width:500px;
+}
+
+#video iframe {
+    display: block;
+    width:80%;
+    height:auto;
+    aspect-ratio:12/6;
+    margin:0 auto;
+    border:20px solid #363127;
+}
+
+#video figcaption {
+    font-size:50px;
+
+}
+
 /* Tablet Size */
 
 @media screen and (min-width: 60em){
@@ -149,6 +177,13 @@ border-bottom-right-radius:6px;
     }
 }
 
+@media screen and (min-width: 60em){
+    #video iframe{
+        width:80%
+        aspect-ratio:12/4;
+    }
+}
+
 /* Large Screen Size*/
 
 @media screen and (min-width: 100em){
@@ -170,4 +205,11 @@ border-bottom-right-radius:6px;
         display:block;
     }
 
+}
+
+@media screen and (min-width: 100em){
+    #video iframe{
+        width:80%
+        aspect-ratio:12/5;
+    }
 }
