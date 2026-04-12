@@ -15,6 +15,7 @@ h1 {
 }
 
 h2 {
+    font-size:50px;
     margin:20px;
 }
 
@@ -99,7 +100,7 @@ header {
 #lit {
     border:5px solid #363127;
     background-color:#D3E2f6;
-    font-size:30px;
+    font-size:40px;
     margin-top:10px;
     padding:10px;
     width:fit-content;
@@ -154,6 +155,76 @@ border-bottom-right-radius:6px;
 #video figcaption {
     font-size:50px;
 
+}
+
+/* Contact Form */
+
+#formElements{
+    display:grid;
+    row-gap:2em;
+}
+
+#contact{
+    font-size:35px;
+    padding:1rem;
+    max-width:900px;
+    margin:2rem auto;
+}
+
+fieldset{
+    border:12px solid #E2D3E0;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-radius:2rem;
+}
+
+legend{
+    background-color:#E2D3E0;
+    color:#363127;
+    padding:.5em;
+}
+
+#contact textarea{
+    height:180px;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    width:100%;
+    padding:15px;
+    font-size:25px;
+    box-sizing:border-box;
+}
+
+#contact input [type="radio"]{
+    width:auto;
+    padding:0;
+    margin-right:8px;
+    transform:scale(1.2);
+}
+
+#contact ul{
+    list-style:none;
+    padding-left:0px;
+    margin:0px;
+}
+
+#contact li{
+    margin:12px 0;
+}
+
+
+#contact fieldset fieldset{
+    width:100%;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+#contact button{
+    background-color: #E2D3E0;
+    color:#363127;
+    border:1px solid #363127;
+    max-width:50%;
+    justify-self:center;
 }
 
 /* Tablet Size */
