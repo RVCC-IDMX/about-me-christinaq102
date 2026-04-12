@@ -2,12 +2,12 @@ body {
     font-family:Roboto;
     background-color:#B0CBEE;
     color:#363127;
-    font-size:30px;
+    font-size:40px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Limelight";
-    font-size:50px;
+    font-size:80px;
     text-align:center;
 }
 h1 {
@@ -121,6 +121,12 @@ text-shadow:2px 2px 3px rgba(0,0,.5);
 box-shadow:5px 5px 5px rgba(0,0,.5);
 border-top-left-radius:6px;
 border-bottom-right-radius:6px;
+}
+
+/* Contact Form */
+
+#formElements {
+    display: grid;
 }
 
 /*Video Section*/
