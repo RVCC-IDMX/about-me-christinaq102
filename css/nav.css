@@ -32,6 +32,7 @@ main {
     flex-direction:column;
     font-size:1.5ren;
     margin-bottom:1ren;
+    padding:1rem;
 }
 
 /* logo */
@@ -67,8 +68,8 @@ main {
     color:#363127;
     background-color:#E2D3E0;
     font-weight:bold;
-    font-size:2rem;
-    padding:.5rem;
+    font-size:2.5rem;
+    padding:1.5rem;
     letter-spacing:2px;
     text-decoration:none;
     display:inline-block;
@@ -87,3 +88,21 @@ media query for non-mobile nav bar
 min-width set to width of nav elements
 such that no text wraps
 */
+
+@media screen and (min-width: 60rem) {
+    .navbar-links{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    .navbar{
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    .navbar ul{
+        display:flex;
+        justify-content:space-between;
+    }
+}
