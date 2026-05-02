@@ -26,6 +26,15 @@ Bullet Points: #2F3B49
 
 https://fonts.google.com/selection
 
+https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts
+
+https://www.monotype.com/resources/expertise/variable-fonts-101
+
+https://web.dev/articles/variable-fonts
+
+https://fontfyi.com/blog/rise-of-variable-fonts/
+
+
 ### License
 
 This project is for educational purposes.

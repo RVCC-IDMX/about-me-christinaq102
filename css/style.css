@@ -1,3 +1,7 @@
+
+/*Import Variable*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap');
+
 body {
     font-family:Roboto;
     background-color:#B0CBEE;
@@ -110,7 +114,7 @@ header {
     text-align:center;
 }
 
-/*Literature*/
+/*Blog*/
 
 #lit {
     border:5px solid #363127;
@@ -123,20 +127,31 @@ header {
     margin-top:5px;
 }
 
-#lit div :first-letter {
-color:#B0CBEE;
-background-image:radial-gradient(#363636);
-float:left;
-font-size:25px;
-padding:5px;
-margin-right:10px;
-margin-bottom:.5px;
-line-height:15px;
-border:2px outset #B0CBEE;
-text-shadow:2px 2px 3px rgba(0,0,.5);
-box-shadow:5px 5px 5px rgba(0,0,.5);
-border-top-left-radius:6px;
-border-bottom-right-radius:6px;
+/*Example*/
+
+
+.variable-text{
+    text-align:center;
+    font-family:'Roboto Flex', sans-serif;
+    font-size:50px;
+    font-variation-settings:"wght" 200;
+    transition:all 0.4s ease;
+}
+
+.variable-text:hover{
+    font-variation-settings:"wght" 800;
+}
+
+.variable-width{
+    text-align:center;
+    font-family:'Roboto Flex', sans-serif;
+    font-size:50px;
+    font-variation-settings: "wdth" 75;
+    transition:all 0.4s ease;
+}
+
+.variable-width:hover{
+    font-variation-settings:"wdth" 125;
 }
 
 /* Contact Form */
