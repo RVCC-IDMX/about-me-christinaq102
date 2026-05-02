@@ -9,7 +9,7 @@ Christina Quinones
 ## Project Description
 This “About Me” website is a Web Development project designed to help me introduce myself to the class while also learning what HTML and CSS are.
 
-I was able to make a navigation bar that brings you directly to the selected section in a smooth motion. My gallery has many personal images of art I created and sunsets I have seen throughout the years. For my hobbies section, I was able to make individual rounded boxes that fit tightly around the words. All of this shows the skills that I learned in layout design, text styling, and how to properly structure the page.
+I was able to create a navigation bar that brings you directly to the selected section in a smooth motion. My gallery has many personal images of art I created and sunsets I have seen throughout the years. For my hobbies section, I was able to make individual rounded boxes that fit tightly around the words. All of this shows the skills that I learned in layout design, text styling, and how to properly structure the page.
 
 Overall, this project gave me a new skill and hobby. I now really enjoy inspecting other websites and seeing the types of designs or colors they use to make their own websites so unique.
 

@@ -44,10 +44,19 @@ header {
     text-align:center;
 }
 
+#bottom-links a {
+    text-align: center;
+    display: block;
+    margin:5px 0;
+    color: #363127;
+}
+
 /*Hero Section*/
 
 #hero img {
-    width:300px;
+    width:700px;
+    border-radius:50%;
+    padding-top:15px;
 }
 
 /*Bio Section*/
@@ -88,7 +97,13 @@ header {
 
 #gallery img {
     max-width:50%;
+    transition:transform 0.3s ease, box shadow 0.3s ease;
+}
 
+#gallery img:hover {
+    transform:scale(1.1);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+    border:5px solid #363127;
 }
 
 #gallery figure {
