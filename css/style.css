@@ -320,3 +320,17 @@ legend{
         aspect-ratio:12/5;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    #hero img, .profile-pic{
+        width:200px;
+        height:200px;
+        object-fit:cover;
+    }
+
+    #hero{
+        width:90%;
+        margin:0 auto;
+        padding:10px;
+    }
+}

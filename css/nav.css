@@ -35,6 +35,52 @@ main {
     padding:1rem;
 }
 
+#menu-toggle{
+    display:none;
+}
+
+.hamburger{
+    display:none;
+    font-size:20px;
+    cursor: pointer;
+    margin-left:auto;
+}
+
+/* navbar for phone*/
+
+@media screen and (max-width: 1000px){
+    .navbar{
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    .hamburger{
+        display:block;
+    }
+
+    .navbar-links{
+        display:none;
+        width:100%;
+    }
+
+    .navbar-links ul{
+        flex-direction:column;
+        text-align:right;
+        padding:0;
+    }
+
+    .navbar-links li{
+        margin:10px 0;
+    }
+
+    #menu-toggle:checked ~ .navbar-links{
+        display:block;
+    }
+}
+
+
+
 /* logo */
 
 .logo{
