@@ -257,7 +257,7 @@ legend{
     justify-self:center;
 }
 
-/* Tablet Size */
+/* Tablet Screen Size */
 
 @media screen and (min-width: 60em){
     figure{
@@ -292,6 +292,8 @@ legend{
 }
 
 /* Large Screen Size*/
+
+
 
 @media screen and (min-width: 100em){
 
